@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- <link rel="stylesheet" href="css/costomcss.css" /> -->
+
+    <title>calculator</title>
+  </head>
+  <body>
+    <!-- calculator global container -->
+    <div class="flex justify-center items-center h-screen bg-zinc-700">
+      <!-- calculator -->
+      <div class="p-6 bg-teal-50 rounded-md flex flex-col gap-4">
+        <!-- output div -->
+        <div class="w-full mb-6">
+          <input
+            id="outputs"
+            type="text"
+            placeholder="0"
+            class="p-4 w-full border border-teal-100 focus:outline-none rounded-md placeholder:text-end placeholder:text-2xl text-right text-lg font-semibold text-gray-700"
+          />
+        </div>
+        <!-- buttons div -->
+        <div class="grid grid-cols-4 gap-4">
+          <!-- col 1 -->
+          <input
+            type="button"
+            value="AC"
+            class="AC rounded-md bg-teal-600 text-white hover:bg-teal-800 text-center shadow-md font-weight-500 text-2xl p-2 transition duration-200 ease-in-out"
+          />
+          <input
+            type="button"
+            value="DEL"
+            class="DEL rounded-md bg-teal-600 text-white hover:bg-teal-800 text-center shadow-md font-weight-500 text-2xl p-2 transition duration-200 ease-in-out"
+          />
+          <input
+            type="button"
+            value="*"
+            class="operator number rounded-md bg-teal-600 text-white hover:bg-teal-800 text-center shadow-md font-weight-500 text-2xl p-2 transition duration-200 ease-in-out"
+          />
+          <input
+            type="button"
+            value="/"
+            class="operator number rounded-md bg-teal-600 text-white hover:bg-teal-800 text-center shadow-md font-weight-500 text-2xl p-2 transition duration-200 ease-in-out"
+          />
+          <!-- col 2 -->
+          <input
+            type="button"
+            value="7"
+            class="number rounded-md bg-teal-600 text-white hover:bg-teal-800 text-center shadow-md font-weight-500 text-2xl p-2 transition duration-200 ease-in-out"
+          />
+          <input
+            type="button"
+            value="8"
+            class="number rounded-md bg-teal-600 text-white hover:bg-teal-800 text-center shadow-md font-weight-500 text-2xl p-2 transition duration-200 ease-in-out"
+          />
+          <input
+            type="button"
+            value="9"
+            class="number rounded-md bg-teal-600 text-white hover:bg-teal-800 text-center shadow-md font-weight-500 text-2xl p-2 transition duration-200 ease-in-out"
+          />
+          <input
+            type="button"
+            value="+"
+            class="operator number rounded-md bg-teal-600 text-white hover:bg-teal-800 text-center shadow-md font-weight-500 text-2xl p-2 transition duration-200 ease-in-out"
+          />
+          <!-- col 3 -->
+          <input
+            type="button"
+            value="4"
+            class="number rounded-md bg-teal-600 text-white hover:bg-teal-800 text-center shadow-md font-weight-500 text-2xl p-2 transition duration-200 ease-in-out"
+          />
+          <input
+            type="button"
+            value="5"
+            class="number rounded-md bg-teal-600 text-white hover:bg-teal-800 text-center shadow-md font-weight-500 text-2xl p-2 transition duration-200 ease-in-out"
+          />
+          <input
+            type="button"
+            value="6"
+            class="number rounded-md bg-teal-600 text-white hover:bg-teal-800 text-center shadow-md font-weight-500 text-2xl p-2 transition duration-200 ease-in-out"
+          />
+          <input
+            type="button"
+            value="-"
+            class="operator number rounded-md bg-teal-600 text-white hover:bg-teal-800 text-center shadow-md font-weight-500 text-2xl p-2 transition duration-200 ease-in-out"
+          />
+          <!-- col 4 -->
+          <input
+            type="button"
+            value="1"
+            class="number rounded-md bg-teal-600 text-white hover:bg-teal-800 text-center shadow-md font-weight-500 text-2xl p-2 transition duration-200 ease-in-out"
+          />
+          <input
+            type="button"
+            value="2"
+            class="number rounded-md bg-teal-600 text-white hover:bg-teal-800 text-center shadow-md font-weight-500 text-2xl p-2 transition duration-200 ease-in-out"
+          />
+          <input
+            type="button"
+            value="3"
+            class="number rounded-md bg-teal-600 text-white hover:bg-teal-800 text-center shadow-md font-weight-500 text-2xl p-2 transition duration-200 ease-in-out"
+          />
+          <input
+            type="button"
+            value="="
+            class="equal rounded-md bg-teal-600 text-white hover:bg-teal-800 text-center shadow-md font-weight-500 text-2xl p-2 transition duration-200 ease-in-out"
+          />
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
